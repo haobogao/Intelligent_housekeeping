@@ -1,0 +1,47 @@
+/**index.wxss**/
+.index_page{
+  width: 100%;
+  height: 667px; 
+  display: flex;
+  flex-direction: column;
+  background-image: url('http://www.hdiphone6wallpaper.com/wp-content/uploads/Sunset/Sunset%20Ship%2002%20iPhone%206%20Wallpapers.jpg'); 
+}
+
+.slide-image{
+  width:100%;
+  height:100%; 
+}
+
+.my_group{
+  width:140px;
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  margin-left: 100px; 
+  /*background-color: #888888;*/
+}
+
+.button-hover_arm {
+  width:100%;
+  margin-top: 100px; 
+  height: 40px;
+  line-height: 40px; 
+  background-color: #888888;
+  color: #99ffcc;
+  font-size: 20px;
+  text-align: center;/*文字居中*/
+}
+.button-hover_sensor {
+  width:100%;
+  margin-top: 30px; 
+  height: 40px;
+  line-height: 40px; 
+  background-color: #888888;
+  font-size: 20px;
+  color: #99ffcc;
+   text-align: center;/*文字居中*/
+}
+/*设置按钮按下去时的样式*/
+.other-button-hover {
+  background-color: #000033;
+}

@@ -1,0 +1,10 @@
+<!--humidity_display.wxml-->
+<view class="humidity_display_view">
+	<view class="humidity_value_view">
+		 <text class="humidity_value" >{{humidity_value}}%</text>
+	</view>
+
+	<view class="humidity_txt_view">
+	 	<text class="humidity_txt" >湿度</text>
+	</view>
+</view>

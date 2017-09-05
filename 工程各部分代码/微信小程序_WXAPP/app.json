@@ -1,0 +1,41 @@
+{
+  "debug": true,
+  "networkTimeout": {
+    "downloadFile": 10000,
+    "request": 10000
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/ARM_controlor/ARM_controlor",
+    "pages/sensorND/sensorND",
+    "pages/humidity_display/humidity_display"
+  ],
+  "tabBar": {
+    "backgroundColor": "#000",
+    "color": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/ARM_controlor/ARM_controlor",
+        "text": "LED灯控制"
+      },
+      {
+        "pagePath": "pages/humidity_display/humidity_display",
+        "text": "湿度显示"
+      },
+      {
+        "pagePath": "pages/sensorND/sensorND",
+        "text": "温度显示"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "#fff",
+    "navigationBarTitleText": "智能XXX"
+  }
+}

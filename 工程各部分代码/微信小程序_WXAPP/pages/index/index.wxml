@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="index_page">
+	<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+	  <block wx:for="{{imgUrls}}" wx:key="*this">
+	    <swiper-item>
+	      <image src="{{item}}" class="slide-image"  mode="{{mode}}"/>
+	    </swiper-item>
+	  </block>
+	</swiper>
+
+	<view class = "my_group">
+	    <button type="button" class="button-hover_arm" size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="jumpTo_LEDcontrol" hover-class="other-button-hover">LED灯控制</button>
+	</view> 
+
+	<view class = "my_group">
+	    <button type="button" class="button-hover_sensor " size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="jumpTo_humidity_display" hover-class="other-button-hover">湿度显示</button>
+	</view> 
+
+	<view class = "my_group">
+	    <button type="button" class="button-hover_sensor " size="{{defaultSize}}" loading="{{loading}}" plain="{{plain}}" disabled="{{disabled}}" bindtap="jumpTo_temperature_display" hover-class="other-button-hover">温度显示</button>
+	</view> 
+</view> 

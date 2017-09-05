@@ -1,0 +1,28 @@
+<!--pages/sensorND/sensorND.wxml-->
+<view class="temperature_display_view">
+	<view class="temperature_value_view">
+		 <text class="temperature_value" >{{temperature_value}}℃</text>
+	</view>
+
+	<view class="temperature_txt_view">
+	 	<text class="temperature_txt" >温度</text>
+	</view>
+
+	<view class = "temperature_warn_view">
+		  <text class="remind-hight" wx:if="{{ temperature_value >= temperature_warn_high_value }}">温度过高</text>
+		 <text class="remind-low" wx:elif="{{ temperature_value <= temperature_warn_low}}">温度过低</text>
+		 <text class="remind-safe" wx:else>温度正常</text>
+	</view>
+
+	<view class="temperature_warning_V_view">
+		<view class="temperature_warning_value_view">
+			 <text class="temperature_warn_high_value" >{{temperature_warn_high_value}}℃</text>
+			 <text class="temperature_warn_low_value" >{{temperature_warn_low_value}}℃</text>
+		</view>
+<!-- 
+		<view class="temperature_warn_txt_view">
+		 	<text class="temperature_warn_high_txt">高温报警值</text>
+		 	<text class="temperature_warn_low_txt">低温报警值</text>
+		</view> -->
+	</view>
+</view>

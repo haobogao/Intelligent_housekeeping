@@ -1,0 +1,38 @@
+/* pages/ARM_controlor/ARM_controlor.wxss */
+.LED_controlPage_view {
+    width: 100%;
+    height: 667px; 
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://sjbz.fd.zol-img.com.cn/t_s800x1280c/g5/M00/00/04/ChMkJ1fJWFeIHgYOAAqlm8-qajgAAU-JQGeFIQACqWz957.jpg'); 
+}
+
+.led_control_view{
+    margin-top: 160px; 
+     margin-left: 50px; 
+      display: flex;
+      flex-direction: row;
+}
+
+.led_control_button{
+  width: 120px;
+  margin-top: 50px;
+  margin-left: 60px; 
+  height: 40px;
+  /*line-height: 40px;*/
+  font-size: 20px;
+  text-align: center;
+  color: #99FF33;
+  background-color: #000099;
+}
+/*按下去的效果*/
+.mini_button_hover_ledControl{
+
+  background-color: #33FF00;
+}
+/*切换开关*/
+.weui-cell_ledControllor{
+    margin-top: 55px;
+    margin-right: 60px; 
+    text-align: right;
+}

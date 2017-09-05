@@ -1,0 +1,42 @@
+系统文件目录：
+	BGP
+		wlecome_UI.bmp 
+		main_UI.bmp		
+
+	picturedisplayer:
+		picture:
+			全为大图 --- 相册中的图片
+
+		BGP_pictureplayer:
+			"functionSelect.bmp"
+
+	musicplayer:
+		music
+		flash_musiclayer
+		BGP_musicplaer(背景图) ：
+			musicplayerBGP_pause.bmp
+			musicplayerBGP_continue.bmp
+
+	voice_recorgnize:
+		record:
+			sample.wav
+		flash_BGP:
+			record_flash
+			recognize_flash
+		BGP:
+			voicerecorgnize_BGP.bmp
+
+		keyBoard
+		keyBoard_BGP
+			keyBoard_BGP.bmp
+		number_BMP:
+			number_0.bmp ---> number_9.bmp
+			cover.bmp
+			black.bmp
+			number_point.bmp
+	TH_sensor:
+		TH_sensor_BGP:
+			TH_sensor_BGP.bmp
+			high_warn_T_modify.bmp
+			low_warn_T_modify.bmp
+			temperatureUnit.bmp

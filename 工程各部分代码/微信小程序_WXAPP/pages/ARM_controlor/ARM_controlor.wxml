@@ -1,0 +1,7 @@
+<!--pages/ARM_controlor/ARM_controlor.wxml-->
+<view class="LED_controlPage_view">
+	<view class="led_control_view">  
+		  <button type="button" class="led_control_button" bindtap="ledCtrollor" hover-class="mini_button_hover_ledControl">LED灯控制</button>  
+		  <switch class="weui-cell_ledControllor" checked="{{led_status}}" bindchange="ledCtrollor" />
+	</view>
+</view>

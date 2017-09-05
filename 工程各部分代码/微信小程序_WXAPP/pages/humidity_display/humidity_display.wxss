@@ -1,0 +1,43 @@
+/* humidity_display.wxss */
+.humidity_display_view {
+    width: 100%;
+    height: 667px; 
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://sjbz.fd.zol-img.com.cn/t_s800x1280c/g5/M00/00/01/ChMkJlfJUO6IB8djACBQo0MjtrUAAU9bAMXL0kAIFC7828.jpg'); 
+}
+
+.humidity_value_view{
+      width: 100%;
+      height: 30px;
+      font-size: 35px;
+      margin-top: 180px; 
+      /*margin-left: 14px; */
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      
+}
+
+.humidity_txt_view{
+      width: 100%;
+      height: 30px;
+      font-size: 40px;
+      margin-top: 0px; 
+      /*margin-left: 10px; */
+      display: flex;
+      flex-direction: row;
+      text-align: left;      
+}
+
+.humidity_value{
+
+      margin-left: 170px;
+      color: #99FF99;
+}
+
+.humidity_txt{
+
+      margin-left: 150px;
+      color: #99FF99;
+}

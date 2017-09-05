@@ -1,0 +1,114 @@
+/* pages/sensorND/sensorND.wxss */
+.temperature_display_view {
+    width: 100%;
+    height: 667px; 
+    display: flex;
+    flex-direction: column;
+    background-image: url('http://sjbz.fd.zol-img.com.cn/t_s800x1280c/g5/M00/00/03/ChMkJ1fJVX6IM_a6ABEE6eaq5x4AAU94AMOpC4AEQUB140.jpg'); 
+}
+
+.temperature_value_view{
+      width: 100%;
+      height: 30px;
+      font-size: 30px;
+      margin-top: 140px; 
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      
+}
+
+.temperature_value{
+
+      margin-left: 170px;
+      color: #99FF99;
+}
+
+
+.temperature_txt_view{
+      width: 100%;
+      height: 30px;
+      font-size: 40px;
+      margin-top: 0px; 
+      display: flex;
+      flex-direction: row;
+      text-align: left;      
+}
+
+.temperature_txt{
+      margin-left: 150px;
+      color: #99FF99;
+}
+
+/*温度报警*/
+.temperature_warn_view{
+      width: 100%;
+      height: 50px;
+      font-size: 30px;
+      margin-top: 80px; 
+      margin-left: 130px; 
+      display: flex;
+      flex-direction: row;
+      text-align: center;      
+}
+
+.remind-hight{
+
+     color: red;
+}
+
+.remind-safe{
+
+  color: #33FF00;
+}
+
+.remind-low{
+
+  color: #009999;
+}
+
+/*温度报警值*/
+.temperature_warning_V_view{
+      width: 100%;
+      height: 50px;
+       margin-top: 80px;  
+      /*margin-left: 110px; */
+      display: flex;
+      flex-direction: row;
+      text-align: left;
+      
+}
+
+.temperature_warning_value_view{  
+        margin-left: 40px;  
+        font-size: 20px;
+}
+
+.temperature_warn_high_value{
+
+      margin-left: 60px;
+      color: #550000;
+}
+
+.temperature_warn_low_value{
+
+      margin-left: 120px;
+      color: #009999;
+}
+
+/*.temperature_warn_txt_view{
+        margin-top: 20px;  
+         font-size: 20px;
+}
+
+.temperature_warn_high_txt{
+
+      margin-left: 0px;
+      color: #550000;
+}
+
+.temperature_warn_low_txt{
+      margin-left: 100px;
+      color: #009999;
+}
+*/
